@@ -34,7 +34,7 @@ spring:
       charset: <encoding> is added
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.example.mybatisdemo.model
+  type-aliases-package: com.study.mybatisdemo.model
 #pagehelper分页插件
 pagehelper:
     helperDialect: mysql

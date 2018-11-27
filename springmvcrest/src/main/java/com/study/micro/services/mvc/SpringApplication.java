@@ -1,6 +1,6 @@
 package com.study.micro.services.mvc;
 
-import com.gupao.micro.services.mvc.service.EchoService;
+import com.study.micro.services.mvc.service.EchoService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.lang.Nullable;
@@ -12,7 +12,7 @@ import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.support.DefaultTransactionStatus;
 
-@ComponentScan(basePackages = "com.gupao.micro.services.mvc.service")
+@ComponentScan(basePackages = "com.study.micro.services.mvc.service")
 @EnableTransactionManagement
 public class SpringApplication {
 
@@ -40,7 +40,7 @@ public class SpringApplication {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-        // 注册 SpringApplication 扫描  com.gupao.micro.services.mvc.service
+        // 注册 SpringApplication 扫描  com.study.micro.services.mvc.service
         context.register(SpringApplication.class);
 
         context.refresh(); // 启动

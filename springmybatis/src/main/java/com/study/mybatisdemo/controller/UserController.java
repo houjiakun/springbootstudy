@@ -1,7 +1,7 @@
 package com.study.mybatisdemo.controller;
 
-import com.example.mybatisdemo.model.User;
-import com.example.mybatisdemo.service.UserService;
+import com.study.mybatisdemo.model.User;
+import com.study.mybatisdemo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

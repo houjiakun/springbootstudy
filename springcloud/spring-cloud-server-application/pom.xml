@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-cloud</artifactId>
-        <groupId>com.gupao</groupId>
+        <groupId>com.study</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -48,14 +48,14 @@
 
         <!--  RocketMQ -->
         <dependency>
-            <groupId>com.gupao</groupId>
+            <groupId>com.study</groupId>
             <artifactId>spring-cloud-stream-binder-rocketmq</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <!-- Spring Cloud Stream HTTP Binder -->
         <dependency>
-            <groupId>com.gupao</groupId>
+            <groupId>com.study</groupId>
             <artifactId>spring-cloud-stream-binder-http</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -81,6 +81,16 @@
             <artifactId>hystrix-javanica</artifactId>
             <version>RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.1.2.RELEASE</version>
+        </dependency>
+        <!--  <dependency>
+              <groupId>com.alibaba</groupId>
+              <artifactId>tools</artifactId>
+              <version>RELEASE</version>
+          </dependency>-->
     </dependencies>
 
 </project>

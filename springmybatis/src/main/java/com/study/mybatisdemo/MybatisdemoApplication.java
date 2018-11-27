@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-@MapperScan("com.example.mybatisdemo.mapper")
+@MapperScan("com.study.mybatisdemo.mapper")
 public class MybatisdemoApplication {
 
 	public static void main(String[] args) {

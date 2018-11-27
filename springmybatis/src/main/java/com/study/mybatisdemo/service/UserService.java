@@ -1,6 +1,6 @@
 package com.study.mybatisdemo.service;
 
-import com.example.mybatisdemo.model.User;
+import com.study.mybatisdemo.model.User;
 
 import java.util.List;
 

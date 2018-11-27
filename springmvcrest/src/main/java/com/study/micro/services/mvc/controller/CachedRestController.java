@@ -1,6 +1,6 @@
 package com.study.micro.services.mvc.controller;
 
-import com.gupao.micro.services.mvc.annotation.OptionsMapping;
+import com.study.micro.services.mvc.annotation.OptionsMapping;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
